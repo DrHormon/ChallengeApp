@@ -5,7 +5,7 @@
 
 var name = "Andrzej";
 var sex = 'M';
-var age = 54;
+var age = 120;
 
 if (sex == 'K' && age < 30)
 {
@@ -15,7 +15,11 @@ else if (name == "Ewa" && age == 33)
 {
     Console.WriteLine("Ewa, lat 33");
 }
-else if (sex == 'M' && age < 18) 
+else if (sex == 'M' && age < 18)
 {
     Console.WriteLine("Niepełnoletni Mężczyzna");
+}
+else         
+{
+    Console.WriteLine(name + " płeć M "+"wiek: " + age);
 }
