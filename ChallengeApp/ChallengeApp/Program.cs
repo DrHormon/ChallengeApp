@@ -9,16 +9,16 @@
 string number = "88888888888876543";
 
 //Zdeklarowanie liczników dla każdej z występujących cyfr.
-var zerocounter = 0;
-var onecounter = 0;
-var twocounter = 0;
-var threecounter = 0;
-var fourcounter = 0;
-var fivecounter = 0;
-var sixcounter = 0;
-var sevencounter = 0;
-var eightcounter = 0;
-var ninecounter = 0;
+var zeroCounter = 0;
+var oneCounter = 0;
+var twoCounter = 0;
+var threeCounter = 0;
+var fourCounter = 0;
+var fiveCounter = 0;
+var sixCounter = 0;
+var sevenCounter = 0;
+var eightCounter = 0;
+var nineCounter = 0;
 
 // Ponieważ zdeklarowałem analizowaną liczbę jako string to nie muszę konwertować liczby na string.
 // string numberAsString = number.ToString();
@@ -36,56 +36,56 @@ foreach (char letter in letters)
 {
     if (letter == '0')
     {
-        zerocounter++;
+        zeroCounter++;
     }
     else if (letter == '1')
     {
-        onecounter++;
+        oneCounter++;
     }
     else if (letter == '2')
     {
-        twocounter++;
+        twoCounter++;
     }
     else if (letter == '3')
     {
-        threecounter++;
+        threeCounter++;
     }
     else if (letter == '4')
     {
-        fourcounter++;
+        fourCounter++;
     }
     else if (letter == '5')
     {
-        fivecounter++;
+        fiveCounter++;
     }
     else if (letter == '6')
     {
-        sixcounter++;
+        sixCounter++;
     }
     else if (letter == '7')
     {
-        sevencounter++;
+        sevenCounter++;
     }
     else if (letter == '8')
     {
-        eightcounter++;
+        eightCounter++;
     }
     else if (letter == '9')
     {
-        ninecounter++;
+        nineCounter++;
     }
 
 }
     
 // WYpisanie obliczonych wyników. 
     Console.WriteLine("Podana liczba to:"+number);
-    Console.WriteLine("0 - " + zerocounter); 
-    Console.WriteLine("1 - " + onecounter);
-    Console.WriteLine("2 - " + twocounter);
-    Console.WriteLine("3 - " + threecounter);
-    Console.WriteLine("4 - " + fourcounter);
-    Console.WriteLine("5 - " + fivecounter);
-    Console.WriteLine("6 - " + sixcounter);
-    Console.WriteLine("7 - " + sevencounter);
-    Console.WriteLine("8 - " + eightcounter);
-    Console.WriteLine("9 - " + ninecounter);
+    Console.WriteLine("0 - " + zeroCounter); 
+    Console.WriteLine("1 - " + oneCounter);
+    Console.WriteLine("2 - " + twoCounter);
+    Console.WriteLine("3 - " + threeCounter);
+    Console.WriteLine("4 - " + fourCounter);
+    Console.WriteLine("5 - " + fiveCounter);
+    Console.WriteLine("6 - " + sixCounter);
+    Console.WriteLine("7 - " + sevenCounter);
+    Console.WriteLine("8 - " + eightCounter);
+    Console.WriteLine("9 - " + nineCounter);
